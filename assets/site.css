@@ -1,0 +1,10 @@
+html{scroll-behavior:smooth}
+*,*::before,*::after{box-sizing:border-box}
+img{max-width:100%}
+.pd-burger .pd-ic-close{display:none}
+.pd-burger[aria-expanded="true"] .pd-ic-close{display:inline-flex}
+.pd-burger[aria-expanded="true"] .pd-ic-open{display:none}
+.pd-burger span{display:inline-flex}
+#pd-menu[hidden]{display:none}
+body.pd-menu-open{overflow:hidden}
+@media (prefers-reduced-motion: reduce){html{scroll-behavior:auto}*{transition-duration:.01ms!important}}
